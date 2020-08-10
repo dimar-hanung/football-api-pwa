@@ -1,0 +1,516 @@
+nav .brand-logo {
+  font-size: 0px;
+}
+nav {
+  z-index: 9;
+}
+.brand-logo img {
+  vertical-align: middle;
+  max-width: 100px;
+}
+#body-content {
+  position: relative;
+  min-height: 100vh;
+}
+.container {
+  position: relative;
+}
+.club-logo {
+  width: 150px;
+}
+.club-logo > div {
+  background: white;
+  padding: 5px;
+  border-radius: 15px;
+  transition: all ease 0.3s;
+  /* box-shadow: 0px 0px 15px -5px black; */
+}
+.club-logo img {
+  display: block;
+  max-height: 80px;
+  margin: auto;
+}
+tr:hover .club-logo > div {
+  box-shadow: 0px 0px 15px -5px black;
+  transform: scale(1.1);
+}
+
+.ver-center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+
+/*================================ >>>>>>>>>>>>> footer <<<<<<<<<<<<< ================================*/
+
+footer {
+  background: #ccc3;
+}
+
+footer .flex {
+  padding: 20px 0px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer hr {
+  margin: 10px 0px;
+}
+
+.foot-sponsor {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 200px;
+  border-radius: 5px;
+  width: max-content;
+}
+
+.foot-sponsor a {
+  /*display: block;*/
+  line-height: 12px;
+  font-size: 14px;
+  margin: 10px 0px;
+  margin-right: 10px;
+  color: inherit;
+  text-decoration: none;
+}
+
+footer > .flex > div {
+  margin: 0px 30px;
+  min-width: 250px;
+}
+
+@media screen and (max-width: 469px) {
+  footer > .flex > div {
+    /*text-align: center;*/
+    /*margin: 20px auto;*/
+  }
+  .nav-logo-span {
+    display: none !important;
+  }
+}
+
+.foot-contact a {
+  transition: all ease 0.3s;
+  color: inherit;
+  /*width: 0px;*/
+  /*height: 10px;*/
+  margin-right: 10px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 100%;
+  border: solid 5px transparent;
+  background: #ffffff42;
+  background-clip: content-box;
+}
+
+.foot-contact a:hover {
+  background-color: #28a745;
+  /*background-clip: border-box;*/
+  color: white;
+}
+.foot-contact .ft-twitter:hover {
+  background-color: #17a2b8;
+}
+.foot-contact .ft-facebook:hover {
+  background-color: #007bff;
+}
+
+.foot-contact .ft-instagram:hover {
+  background-color: #dc3545;
+}
+
+.foot-contact i {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.foot-judul {
+  color: #28a745;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.copyright {
+  padding: 10px;
+  font-family: monospace;
+  text-align: center;
+}
+
+/*================================ xxxxxxxxxxxxx footer xxxxxxxxxxxxx ================================*/
+
+.team-title-main {
+  font-weight: bolder;
+}
+.flex-wrap-50 {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.flex-wrap-50 .flx {
+  width: 50%;
+  min-width: 250px;
+  margin: auto;
+}
+.flx img {
+  margin: auto;
+  width: 100%;
+  display: block;
+}
+
+
+/* ================= >>>> 2 <<<< ================= */
+.teams-wrap {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.teams-wrap > div {
+  width: 25%;
+  transition: all ease 0.5s;
+  min-width: 230px;
+  min-height: 100px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+.teams-wrap img {
+  margin: auto;
+  display: block;
+  width: 100px;
+  min-width: 100px;
+  max-height: 120px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.nav-box-wrap{
+    display: flex;
+  }
+.teams-title,.add-fav {
+  width: 100%;
+  background: #26a69a;
+  color: #fff;
+  border-radius: 3px 0 0 0;
+  font-weight: bold;
+  padding: 5px 0;
+  margin-bottom: 10px;
+}
+.add-fav{
+  border-radius: 0 3px 0 0;
+  max-width: 70px;
+  text-align: center;
+}
+
+
+
+.team-box {
+  margin: auto;
+  border: solid #26a69a 0.5px;
+  border-radius: 3px;
+  min-height: 250px;
+  height: calc(100% - 25px);
+  width: calc(100% - 25px);
+  min-width: 230px;
+  position: relative;
+  /* box-shadow: 0px 0px 15px -5px black; */
+}
+.btn-wrap {
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 15px;
+  margin: auto;
+  text-align: center;
+}
+.desc-wrap{
+      margin: 10px;
+      width: max-content;
+  }
+  .img-wrap{
+    height: 140px;
+    position: relative;
+  }
+  
+
+
+/* ================= xxxx 2 xxxx ================= */
+
+/* ================= >>>> 3 <<<< ================= */
+
+ 
+.close-button{
+  width: 20px;
+  height: 20px;
+  background: #dc3435;
+  border-radius: 100%;
+}
+.width-30{
+  width: 30px;
+}
+tr,td,th{
+  text-align: center;
+}
+.nav-standing{
+  padding: 20px;
+  padding-top: 0px;
+  margin: 50px 0;
+  box-shadow: 0 0 15px -5px black;
+  border-radius: 0 5px 5px 5px;
+  color: #fff;
+  background: #343a40;
+}
+.ket-box{
+  display: inline-block;
+  border-radius: 3px;
+  padding-right: 5px;
+  border: solid #ccc 1px;
+  margin: auto;
+  margin-top: 5px;
+
+}
+.ket-wrap{
+  margin: auto;
+  position: relative;
+}
+.ket-wrap .text{
+  display: inline-block;
+  text-align: center;
+  border-radius: 2px;
+  width: 20px;
+}
+.corner-title{
+  position: absolute;
+  background: #343a40;
+  padding: 5px 20px;
+  border-radius: 3px 3px 0 0;
+  transform: translateY(-100%);
+  top: 0;
+  left: 0;
+}
+
+/* ================= xxxx 3 xxxx ================= */
+
+/* ================= >>>> 4 <<<< ================= */
+
+.close-button{
+  width: 20px;
+  height: 20px;
+  background: #dc3435;
+  border-radius: 100%;
+}
+.width-30{
+  width: 30px;
+}
+
+.nav-standing{
+  padding: 20px;
+  padding-top: 0px;
+  margin: 50px 0;
+  box-shadow: 0 0 15px -5px black;
+  border-radius: 0 5px 5px 5px;
+  color: #fff;
+  background: #343a40;
+}
+.ket-box{
+  display: inline-block;
+  border-radius: 3px;
+  padding-right: 5px;
+  border: solid #ccc 1px;
+  margin: auto;
+  margin-top: 5px;
+
+}
+.ket-wrap{
+  margin: auto;
+  position: relative;
+}
+.ket-wrap .text{
+  display: inline-block;
+  text-align: center;
+  border-radius: 2px;
+  width: 20px;
+}
+.corner-title{
+  position: absolute;
+  background: #343a40;
+  padding: 5px 20px;
+  border-radius: 3px 3px 0 0;
+  transform: translateY(-100%);
+  top: 0;
+  left: 0;
+}
+
+
+/* ================= xxxx 4 xxxx ================= */
+
+/* ================= >>>> 5 <<<< ================= */
+
+
+.middle-wrap{
+  display: table;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+}
+.middle-vwrap{
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+}
+.content-wrap{
+  margin: auto;
+  max-width: 800px;
+}
+.text-center{
+  text-align: center;
+}
+.bg-image{
+  background: url(../images/bg-home-bola.png);
+  background-size: cover;
+  filter: brightness(0.3);
+  z-index: -1;
+  animation: bganim 5s infinite ease-in-out alternate;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
+@keyframes bganim{
+  0%{
+      transform: translateY(-10px) scale(1.1);
+  }
+  100%{
+      transform: translateY(10px) scale(1.1);
+  }
+}
+
+.box-anim{
+  animation: boxanim 2s ease-in-out forwards;
+  margin: 10px auto;
+  padding: 10px 20px;
+  margin-top: 0;
+  width: max-content;
+  line-height: normal;
+}
+
+@keyframes boxanim{
+  0%{
+      border: solid white;
+      border-width: 0px 0px 0px 0px;
+  }
+  25%{
+      border: solid white;
+      border-width: 0px 0px 2px 0px;
+  }
+  50%{
+      border: solid white;
+      border-width: 0px 2px 2px 0px ;
+  }
+  75%{
+      border: solid white;
+      border-width: 2px 2px 2px 0px ;
+      background: transparent;
+  }
+  100%{
+      border: solid white;
+      background: #00000080 ;
+      border-width: 2px 2px 2px 2px ;
+      box-shadow: 0 0 15px -5px black;
+  }
+}
+
+.m-auto{
+  margin: auto;
+  width: max-content;
+}
+
+/* ================= xxxx 5 xxxx ================= */
+
+/* ================= >>>> 6 <<<< ================= */
+
+.teams-wrap {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+}
+.teams-wrap > div {
+  width: 25%;
+  transition: all ease 0.5s;
+  min-width: 230px;
+  min-height: 100px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+.teams-wrap img {
+  margin: auto;
+  display: block;
+  width: 100px;
+  min-width: 100px;
+  max-height: 120px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.nav-box-wrap{
+    display: flex;
+  }
+.teams-title,.add-fav {
+  width: 100%;
+  background: #26a69a;
+  color: #fff;
+  border-radius: 3px 0 0 0;
+  font-weight: bold;
+  padding: 5px 0;
+  margin-bottom: 10px;
+}
+.add-fav{
+  border-radius: 0 3px 0 0;
+  max-width: 70px;
+  text-align: center;
+}
+
+
+
+.team-box {
+  margin: auto;
+  border: solid #26a69a 0.5px;
+  border-radius: 3px;
+  min-height: 250px;
+  height: calc(100% - 25px);
+  width: calc(100% - 25px);
+  min-width: 230px;
+  position: relative;
+  /* box-shadow: 0px 0px 15px -5px black; */
+}
+.btn-wrap {
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 15px;
+  margin: auto;
+  text-align: center;
+}
+.desc-wrap{
+      margin: 10px;
+      width: max-content;
+  }
+  .img-wrap{
+    height: 140px;
+    position: relative;
+  }
+
+/* ================= xxxx 6 xxxx ================= */
