@@ -1,3 +1,4 @@
+Demo : https://dimar-push-bb9b6.web.app/
 # Update Submission 2
 ## Push.js
 - Regenerate Key , fix auth
@@ -39,3 +40,8 @@ karena jika tidak melakukan pengecekan bahwa data sudah disimpan, maka add() aka
 
 ## Menerapkan tiga karakter komparasi ,
 - bertujuan membandingkan tipe datanya juga
+
+# Update Submission 3 - Fix Work Box
+- Menambah semua cache yang tertinggal
+- [x] Offline mode
+- [x] PWA shortcut
