@@ -39,3 +39,8 @@ karena jika tidak melakukan pengecekan bahwa data sudah disimpan, maka add() aka
 
 ## Menerapkan tiga karakter komparasi ,
 - bertujuan membandingkan tipe datanya juga
+
+# Update Submission 3 - Fix Work Box
+- Menambah semua cache yang tertinggal
+- [x] Offline mode
+- [x] PWA shortcut

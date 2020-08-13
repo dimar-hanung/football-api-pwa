@@ -11,10 +11,10 @@ webPush.setVapidDetails(
    vapidKeys.privateKey
 )
 var pushSubscription = {
-   "endpoint": "https://fcm.googleapis.com/fcm/send/epeF38i6J_M:APA91bHFQU4BB-W0Mjy9847gH8_SmggdOGk_XlXlJJgh4VqGJVLFXhiALK0I9Y1o5pe33znLASW6cpn-2ZeLGriUSHbC1-F3AGF02lf-CXVZbjsFLx9NciC-6c1m0fDpdc-T5DTaT_F8",
+   "endpoint": "https://fcm.googleapis.com/fcm/send/fx6IQ8t1o3s:APA91bFQMNAWkc4qJULJZQyJ2_83V0MceHaNv54Gle66swouBd3f_HenT8LVSm-JLjdIJTJGE73_TFFRPOVSjWBjyfURuzk4AZHT1_fQ2_8xojCooo39Q4PICSa3ZdK4KuASy3r9M2Rb",
    "keys": {
-       "p256dh": "BJ1kKuR8v2GIGsLH96U9E46/5hz334v09oRpnCrORvaKgUDqbD3t3zsrrh3bfcASQ9KWI2bfO0FmB/J/Xj+nI2o=",
-       "auth": "GgBIzGpng0ay/XJn8F+5Kw=="
+       "p256dh": "BPVAuo9+Mk9hfN8fAtt7mDI76sm1YRMTPdHePpQvX2OsWj5MRBxwdMKQvnZZN/+ma35B3NQMRVpe1pqea3XcIuo=",
+       "auth": "jUj4BLLtbKMjLSeAmAfaWA=="
    }
 };
 var payload = 'Selamat! Liga bola siap menanti anda !';

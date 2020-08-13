@@ -43,6 +43,10 @@ tr:hover .club-logo > div {
   z-index: 999;
 }
 
+h1{
+  font-size: revert !important
+}
+
 /*================================ >>>>>>>>>>>>> footer <<<<<<<<<<<<< ================================*/
 
 footer {
@@ -378,7 +382,6 @@ tr,td,th{
   background-size: cover;
   filter: brightness(0.3);
   z-index: -1;
-  animation: bganim 5s infinite ease-in-out alternate;
   top: 0;
   left: 0;
   width: 100vw;

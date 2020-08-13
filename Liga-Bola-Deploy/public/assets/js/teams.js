@@ -14,7 +14,7 @@ const getTeamsTable = (data) => {
             </div>
         </div>
             <div class="img-wrap">
-            <img src="${data.crestUrl}" onerror="this.src='assets/images/logo-web-dimar.png'" alt="DImar">
+            <img src="${data.crestUrl?data.crestUrl:"assets/images/logo-web-dimar.png"}" onerror="this.src='assets/images/logo-web-dimar.png'" alt="DImar">
             </div>
             
             
